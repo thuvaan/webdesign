@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Bài 7 - BTVN_S2 </title>
+    </head>
+    <body>
+        <h3 style="text-align: center;"> Interview Feedback </h3>
+        <p> This type of form may be an easy way to consolidate / standardize feedback on interview candidates.</p>
+        <form action="/action_page.php">
+            <label for="fname">Candidate Name</label>
+            <input type="text" id="fname" name="fname">
+            <label for="position"> Position Applied For </label>
+            <input type="text" id="position" name="position"> <br>
+            <label for="edu"> Education level </label>
+            <select id="edu" name="edu">
+                <option value="hs"> High School</option>
+                <option value="bd"> Bachelors Degree</option>
+                <option value="md"> Masters Degree</option>
+                <option value="dd"> Doctoral Degree</option>
+                <option value="pc"> Professional Certifiction</option>
+            </select>
+            <label for="cand"> Candidate is a good fit for the position</label><br>
+            <Input type="radio" id= "agree" name="cand" value="agree">
+                <label for="agree"> Agree </label><br>
+            <Input type="radio" id= "sa" name="cand" value="sa">
+                <label for="sa"> Somewhat Agree </label><br>
+            <Input type="radio" id= "ne" name="cand" value="ne">
+                <label for="ne"> Neutral </label><br>
+            <Input type="radio" id= "sd" name="cand" value="sd">
+                <label for="sd"> Somewhat Disagree </label><br>
+            <Input type="radio" id= "dis" name="cand" value="dis">
+                <label for="dis"> Disagree </label><br>
+            <label for="hire"> Should we hire this candidate ?</label>
+            <Input type="radio" id= "yes" name="hire" value="yes">
+                <label for="yes"> Yes </label>
+            <Input type="radio" id= "no" name="hire" value="no">
+                <label for="no"> No </label><br>
+            <label for="cmt"> Comments</label>
+            <textarea name="message" row="20" col="50"></textarea><br>
+            <input type="submit">
+        </form>
+    </body>
+</html>
